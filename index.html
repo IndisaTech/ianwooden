@@ -177,7 +177,7 @@
             </div>
             <div class="row" style="background-color: #2C3E50;">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm" action="mail/contact_me.php" metho="POST">
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="name">Name</label>
@@ -205,7 +205,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="message">Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message"
+                                <textarea rows="5" style="background-color: aliceblue;" class="form-control" placeholder="Message" id="message"
                                     required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -231,6 +231,7 @@
                         <h3>Location</h3>
                         <p>17 Castleman Road
                             <br>Fish Hoek, Cape Town 7974</p>
+                            <br><h3>Phone No : 061 970 7070</h3>
                     </div>
                     
                         <div class="footer-col col-md-4">
